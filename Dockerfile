@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     vim \
     sudo \
     keyboard-configuration \
+    ssh \
     && rm -rf /var/lib/apt/lists/*
 
 #RUN wget --no-check-certificate -e https_proxy=http://127.0.0.1:3128 https://developer.nvidia.com/compute/cuda/8.0/Prod2/cluster_management/cuda_cluster_pkgs_8.0.61_ubuntu1604.tar-gz \
