@@ -34,5 +34,5 @@ RUN wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_
     && rm -rf /var/lib/apt/lists/*
 
 
-RUN groupadd -r gitlab-runner && useradd -r -g gitlab-runner gitlab-runner
-USER gitlab-runner
+#RUN groupadd -r gitlab-runner && useradd -r -g gitlab-runner gitlab-runner
+#USER gitlab-runner
