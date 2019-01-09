@@ -36,4 +36,4 @@ RUN wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_
 
 RUN groupadd -r gitlab-runner && useradd -r -g gitlab-runner gitlab-runner && mkdir -p /home/gitlab-runner && chown -R gitlab-runner:gitlab-runner /home/gitlab-runner
 USER gitlab-runner
-WORKDIR /home/gitlab-runner
+#WORKDIR /home/gitlab-runner
